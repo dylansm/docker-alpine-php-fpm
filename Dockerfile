@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:edge
 
 RUN echo "http://dl-4.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories && \
     apk --update add \
@@ -10,6 +10,7 @@ RUN echo "http://dl-4.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositor
         php7-intl \
         php7-json \
         php7-mbstring \
+        php7-mcrypt \
         php7-mysqlnd \
         php7-opcache \
         php7-pdo \
