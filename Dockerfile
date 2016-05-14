@@ -19,6 +19,7 @@ RUN echo "http://dl-4.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositor
         php7-posix \
         php7-session \
         php7-xml \
+        php7-zlib \
     && rm -rf /var/cache/apk/*
 
 COPY php.ini /etc/php7/conf.d/50-setting.ini
