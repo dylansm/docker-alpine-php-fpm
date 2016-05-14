@@ -13,6 +13,7 @@ RUN echo "http://dl-4.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositor
         php7-mcrypt \
         php7-mysqlnd \
         php7-opcache \
+        php7-openssl \
         php7-pdo \
         php7-pdo_mysql \
         php7-posix \
